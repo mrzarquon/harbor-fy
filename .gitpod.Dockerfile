@@ -3,9 +3,14 @@ FROM gitpod/workspace-python-3.9
 USER gitpod
 
 ENV POETRY_HOME=/workspace/.poetry
-ENV PATH=$POETRY_HOME:$PATH
+ENV PATH=$POETRY_HOME/bin:$PATH
 
 RUN curl -sSL https://install.python-poetry.org | python3 - 
 
 ENV POETRY_VIRTUALENVS_CREATE=true
 ENV POETRY_VIRTUALENVS_IN_PROJECT=true
+
+RUN alias py_act="source $(poetry env info --path)/bin/activate"
+RUN { echo; \
+    echo 'alias py_act="source $(poetry env info --path)/bin/activate"';\
+    } >> /home/gitpod/.bashrc.d/60-python
