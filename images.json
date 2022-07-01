@@ -1,0 +1,194 @@
+[
+  {
+    "original": "b.gcr.io/cloudsql-docker/gce-proxy:1.11",
+    "target": "your.registry.com/gitpod-namespace/cloudsql-docker/gce-proxy:1.11"
+  },
+  {
+    "original": "docker.io/bitnami/bitnami-shell:10-debian-10-r431",
+    "target": "your.registry.com/gitpod-namespace/bitnami/bitnami-shell:10-debian-10-r431"
+  },
+  {
+    "original": "docker.io/bitnami/minio:2022.4.29-debian-10-r0",
+    "target": "your.registry.com/gitpod-namespace/bitnami/minio:2022.4.29-debian-10-r0"
+  },
+  {
+    "original": "docker.io/bitnami/minio:2022.5.26-debian-10-r0",
+    "target": "your.registry.com/gitpod-namespace/bitnami/minio:2022.5.26-debian-10-r0"
+  },
+  {
+    "original": "docker.io/bitnami/mysql:5.7.34-debian-10-r55",
+    "target": "your.registry.com/gitpod-namespace/bitnami/mysql:5.7.34-debian-10-r55"
+  },
+  {
+    "original": "docker.io/bitnami/rabbitmq:3.10.2-debian-10-r7",
+    "target": "your.registry.com/gitpod-namespace/bitnami/rabbitmq:3.10.2-debian-10-r7"
+  },
+  {
+    "original": "docker.io/gitpod/workspace-full:latest",
+    "target": "your.registry.com/gitpod-namespace/gitpod/workspace-full:latest"
+  },
+  {
+    "original": "docker.io/library/alpine:3.15",
+    "target": "your.registry.com/gitpod-namespace/library/alpine:3.15"
+  },
+  {
+    "original": "docker.io/library/mysql:5.7.34",
+    "target": "your.registry.com/gitpod-namespace/library/mysql:5.7.34"
+  },
+  {
+    "original": "docker.io/library/redis:6.2",
+    "target": "your.registry.com/gitpod-namespace/library/redis:6.2"
+  },
+  {
+    "original": "docker.io/library/registry:2.7.1",
+    "target": "your.registry.com/gitpod-namespace/library/registry:2.7.1"
+  },
+  {
+    "original": "docker.io/library/ubuntu:20.04",
+    "target": "your.registry.com/gitpod-namespace/library/ubuntu:20.04"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/agent-smith:commit-9643bcfc95b8f14b8c5386fb64b39276c6a47978",
+    "target": "your.registry.com/gitpod-namespace/agent-smith:commit-9643bcfc95b8f14b8c5386fb64b39276c6a47978"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/blobserve:commit-51980e6c1f8a5352f7f7c66957674f89c1e36c58",
+    "target": "your.registry.com/gitpod-namespace/blobserve:commit-51980e6c1f8a5352f7f7c66957674f89c1e36c58"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ca-updater:commit-37164c872f55851dbd8126e1b5a8c062bc36fc1b",
+    "target": "your.registry.com/gitpod-namespace/ca-updater:commit-37164c872f55851dbd8126e1b5a8c062bc36fc1b"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/content-service:commit-801b7d67f6ab2b0003f99f36b0b8b1a0b03e0ae3",
+    "target": "your.registry.com/gitpod-namespace/content-service:commit-801b7d67f6ab2b0003f99f36b0b8b1a0b03e0ae3"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/dashboard:commit-b5e78769fe98f8f729fd7f5390b564218db64bf9",
+    "target": "your.registry.com/gitpod-namespace/dashboard:commit-b5e78769fe98f8f729fd7f5390b564218db64bf9"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/db-migrations:commit-3c79a81cfe06b82cd29801106c3841df40ce3077",
+    "target": "your.registry.com/gitpod-namespace/db-migrations:commit-3c79a81cfe06b82cd29801106c3841df40ce3077"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/docker-up:commit-47a75a0ee3dd6c30771c453aa58904d35dd4b073",
+    "target": "your.registry.com/gitpod-namespace/docker-up:commit-47a75a0ee3dd6c30771c453aa58904d35dd4b073"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide-proxy:commit-9643bcfc95b8f14b8c5386fb64b39276c6a47978",
+    "target": "your.registry.com/gitpod-namespace/ide-proxy:commit-9643bcfc95b8f14b8c5386fb64b39276c6a47978"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide/code-desktop-insiders:commit-1b24d7cc47b3420987e12258e03ab0d244497af8",
+    "target": "your.registry.com/gitpod-namespace/ide/code-desktop-insiders:commit-1b24d7cc47b3420987e12258e03ab0d244497af8"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide/code-desktop:commit-1b24d7cc47b3420987e12258e03ab0d244497af8",
+    "target": "your.registry.com/gitpod-namespace/ide/code-desktop:commit-1b24d7cc47b3420987e12258e03ab0d244497af8"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide/code:commit-5cff80fdce975a70553712505e3eebf73bfdf5fa",
+    "target": "your.registry.com/gitpod-namespace/ide/code:commit-5cff80fdce975a70553712505e3eebf73bfdf5fa"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide/code:nightly",
+    "target": "your.registry.com/gitpod-namespace/ide/code:nightly"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide/goland:commit-9643bcfc95b8f14b8c5386fb64b39276c6a47978",
+    "target": "your.registry.com/gitpod-namespace/ide/goland:commit-9643bcfc95b8f14b8c5386fb64b39276c6a47978"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide/goland:latest",
+    "target": "your.registry.com/gitpod-namespace/ide/goland:latest"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide/intellij:commit-3c79a81cfe06b82cd29801106c3841df40ce3077",
+    "target": "your.registry.com/gitpod-namespace/ide/intellij:commit-3c79a81cfe06b82cd29801106c3841df40ce3077"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide/intellij:latest",
+    "target": "your.registry.com/gitpod-namespace/ide/intellij:latest"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide/phpstorm:commit-9643bcfc95b8f14b8c5386fb64b39276c6a47978",
+    "target": "your.registry.com/gitpod-namespace/ide/phpstorm:commit-9643bcfc95b8f14b8c5386fb64b39276c6a47978"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide/phpstorm:latest",
+    "target": "your.registry.com/gitpod-namespace/ide/phpstorm:latest"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide/pycharm:commit-9643bcfc95b8f14b8c5386fb64b39276c6a47978",
+    "target": "your.registry.com/gitpod-namespace/ide/pycharm:commit-9643bcfc95b8f14b8c5386fb64b39276c6a47978"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ide/pycharm:latest",
+    "target": "your.registry.com/gitpod-namespace/ide/pycharm:latest"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/image-builder-mk3/bob:51980e6c1f8a5352f7f7c66957674f89c1e36c58",
+    "target": "your.registry.com/gitpod-namespace/image-builder-mk3/bob:51980e6c1f8a5352f7f7c66957674f89c1e36c58"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/image-builder-mk3:commit-b2ef392379cfee4ef62c4fc40a50eb33f3e1c267",
+    "target": "your.registry.com/gitpod-namespace/image-builder-mk3:commit-b2ef392379cfee4ef62c4fc40a50eb33f3e1c267"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/installation-telemetry:commit-17fbe3b2f431f0890f15e98b5ae688a66f0c8e0d",
+    "target": "your.registry.com/gitpod-namespace/installation-telemetry:commit-17fbe3b2f431f0890f15e98b5ae688a66f0c8e0d"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/openvsx-proxy:commit-51980e6c1f8a5352f7f7c66957674f89c1e36c58",
+    "target": "your.registry.com/gitpod-namespace/openvsx-proxy:commit-51980e6c1f8a5352f7f7c66957674f89c1e36c58"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/proxy:commit-37164c872f55851dbd8126e1b5a8c062bc36fc1b",
+    "target": "your.registry.com/gitpod-namespace/proxy:commit-37164c872f55851dbd8126e1b5a8c062bc36fc1b"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/registry-facade:commit-51980e6c1f8a5352f7f7c66957674f89c1e36c58",
+    "target": "your.registry.com/gitpod-namespace/registry-facade:commit-51980e6c1f8a5352f7f7c66957674f89c1e36c58"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/seccomp-profile-installer:commit-d0ac4a3ac33da32f93c02a3bb625b09d25604ded",
+    "target": "your.registry.com/gitpod-namespace/seccomp-profile-installer:commit-d0ac4a3ac33da32f93c02a3bb625b09d25604ded"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/server:commit-b5e78769fe98f8f729fd7f5390b564218db64bf9",
+    "target": "your.registry.com/gitpod-namespace/server:commit-b5e78769fe98f8f729fd7f5390b564218db64bf9"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/service-waiter:commit-51980e6c1f8a5352f7f7c66957674f89c1e36c58",
+    "target": "your.registry.com/gitpod-namespace/service-waiter:commit-51980e6c1f8a5352f7f7c66957674f89c1e36c58"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/supervisor:commit-f3dbb40940a09142f4859cea95b89cf1319a3cbf",
+    "target": "your.registry.com/gitpod-namespace/supervisor:commit-f3dbb40940a09142f4859cea95b89cf1319a3cbf"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/workspacekit:commit-40745c5fdb786c5c868ba60717094ca0a6fa037f",
+    "target": "your.registry.com/gitpod-namespace/workspacekit:commit-40745c5fdb786c5c868ba60717094ca0a6fa037f"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ws-daemon:commit-801b7d67f6ab2b0003f99f36b0b8b1a0b03e0ae3",
+    "target": "your.registry.com/gitpod-namespace/ws-daemon:commit-801b7d67f6ab2b0003f99f36b0b8b1a0b03e0ae3"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ws-manager-bridge:commit-b5e78769fe98f8f729fd7f5390b564218db64bf9",
+    "target": "your.registry.com/gitpod-namespace/ws-manager-bridge:commit-b5e78769fe98f8f729fd7f5390b564218db64bf9"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ws-manager:commit-38f3cf7fc649ce1a2cf705c427adbfaf51c85201",
+    "target": "your.registry.com/gitpod-namespace/ws-manager:commit-38f3cf7fc649ce1a2cf705c427adbfaf51c85201"
+  },
+  {
+    "original": "eu.gcr.io/gitpod-core-dev/build/ws-proxy:commit-801b7d67f6ab2b0003f99f36b0b8b1a0b03e0ae3",
+    "target": "your.registry.com/gitpod-namespace/ws-proxy:commit-801b7d67f6ab2b0003f99f36b0b8b1a0b03e0ae3"
+  },
+  {
+    "original": "quay.io/brancz/kube-rbac-proxy:v0.12.0",
+    "target": "your.registry.com/gitpod-namespace/brancz/kube-rbac-proxy:v0.12.0"
+  }
+]
