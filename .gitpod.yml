@@ -4,3 +4,9 @@ image:
 tasks:
 - init: |
     poetry install
+- name: tailscaled
+  command: |
+    sudo tailscaled &&
+    sudo -E tailscale up --auth-key $TS_KEY_WORKSPACE --hostname="gitpod-$(echo ${GITPOD_WORKSPACE_CONTEXT} | jq -r .repository.name)" --ssh &&
+    gp preview "http://gitpod-$(echo ${GITPOD_WORKSPACE_CONTEXT} | jq -r .repository.name):8000"
+
